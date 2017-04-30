@@ -15,7 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 30rem;
+  height: 31rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -34,12 +34,12 @@ body {
 
 .name_nav {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .text_name {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .name {
@@ -79,11 +79,15 @@ nav {
   color: white;
   text-decoration: none;
   padding: 1rem 2rem 1rem 0rem;
-  align-items: center;
 }
 
 .nav-menu {
   display: none;
+}
+
+.text-main {
+  width: 960px;
+  position: relative;
 }
 
 .see {
@@ -98,5 +102,7 @@ nav {
   display: block;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  align-self: flex-end;
   right: 2rem;
 }
