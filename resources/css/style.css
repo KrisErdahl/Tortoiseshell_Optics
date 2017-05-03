@@ -105,4 +105,116 @@ nav {
   position: absolute;
   align-self: flex-end;
   right: 2rem;
+  /*margin-right: -2rem;*/
+}
+
+.why_us {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.exams {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 8rem;
+  margin-right: 6rem;
+}
+
+.exams h3 {
+  width: 7.0rem;
+  text-align: center;
+}
+
+.exams img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.fittings {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 8rem;
+  margin-right: 6rem;
+}
+
+.fittings h3 {
+  width: 4.0rem;
+  text-align: center;
+}
+
+.fittings img {
+  width: 5rem;
+  height: auto;
+}
+
+.delivery {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 8rem;
+}
+
+.delivery h3 {
+  width: 5rem;
+  text-align: center;
+}
+
+.delivery img {
+  width: 5rem;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 3rem;
+  /*width: 960px;*/
+}
+
+.optics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin-bottom: 5rem;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.optics .us {
+  width: 10rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+/*.optics .info {
+  width: 35%;
+  margin-right: 5%;
+}*/
+
+footer {
+  width: 960px;
+  background-color: azure;
+  padding: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name .low {
+  color: black;
 }
