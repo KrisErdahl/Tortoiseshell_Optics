@@ -18,8 +18,14 @@ body {
   height: 31rem;
   width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.top {
+  width: 960px;
+  display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
 }
 
 /*Header with logo, name, nav*/
@@ -87,7 +93,7 @@ nav {
 
 .text-main {
   width: 960px;
-  position: relative;
+  /*position: relative;*/
 }
 
 .see {
@@ -102,10 +108,10 @@ nav {
   display: block;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  /*position: absolute;*/
   align-self: flex-end;
   right: 2rem;
-  /*margin-right: -2rem;*/
+  margin-right: -2rem;
 }
 
 /*Icons after banner: exams, fittings, delivery*/
