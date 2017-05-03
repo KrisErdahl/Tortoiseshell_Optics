@@ -240,3 +240,32 @@ footer {
 .name .low {
   color: black;
 }
+
+@media only screen and (max-width: 900px) {
+  .main {
+    height: 22rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top {
+    /*width: 960px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  /*Header with logo, name, nav*/
+  .center {
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  .see {
+    margin-top: 5rem;
+    padding: .75rem 4rem;
+    font-size: 1.33rem;
+    margin-right: 2rem;
+  }
+}
