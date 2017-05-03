@@ -108,6 +108,7 @@ nav {
   /*margin-right: -2rem;*/
 }
 
+/*Icons after banner: exams, fittings, delivery*/
 .why_us {
   display: flex;
   align-content: space-between;
@@ -172,11 +173,19 @@ nav {
   height: auto;
 }
 
+/*Philosophy and appointments*/
+.middle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .about {
+  width: 960px;
   display: flex;
   align-content: flex-start;
   justify-content: center;
-  flex-direction: row;
+  /*flex-direction: row;*/
   margin-top: 3rem;
   /*width: 960px;*/
 }
@@ -201,14 +210,21 @@ nav {
   color: white;
 }
 
-/*.optics .info {
-  width: 35%;
-  margin-right: 5%;
-}*/
+
+/*footer information*/
+.end {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  width: 960px;
+  display: flex;
+  background-color: azure;
+}
 
 footer {
-  width: 960px;
-  background-color: azure;
   padding: 4rem;
   display: flex;
   justify-content: flex-start;
